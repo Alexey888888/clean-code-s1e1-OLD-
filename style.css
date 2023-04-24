@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.header .more-inf {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -54,7 +54,7 @@ body {
   padding: 0px;
 }
 
-.todo__title {
+.title {
   list-style: none;
 }
 
@@ -81,7 +81,7 @@ input,button{
 }
 
 /* Heading */
-.todo__title,
+.title,
 .add-new-task__label {
   color: #333;
   font-weight: 700;
