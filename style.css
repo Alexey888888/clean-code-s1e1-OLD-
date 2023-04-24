@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.header .more-inf {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -54,7 +54,7 @@ body {
   padding: 0px;
 }
 
-.todo__title {
+.title {
   list-style: none;
 }
 
@@ -62,9 +62,7 @@ body {
   list-style: none;
 }
 
-input,button{
-  outline: none;
-}
+
 
 .btn {
   background: none;
@@ -74,6 +72,7 @@ input,button{
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline: none;
 }
 
 .btn:hover {
@@ -81,7 +80,7 @@ input,button{
 }
 
 /* Heading */
-.todo__title,
+.title,
 .add-new-task__label {
   color: #333;
   font-weight: 700;
@@ -103,6 +102,7 @@ input,button{
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  outline: none;
 }
 
 .item__task-input:focus {
